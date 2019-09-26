@@ -1,0 +1,22 @@
+[PRECISA LX]
+port = COM1
+baudrate = 9600
+bytesize = 7
+parity = E
+stopbits = 1
+timeout = 1
+xonxoff = 0
+rtscts = 0
+command = P0\r\n
+
+[SARTO]
+port = COM1
+baudrate = 1200
+bytesize = 7
+parity = O
+stopbits = 1
+timeout = 1
+xonxoff = 0
+rtscts = 0
+command = \033P\r\n
+
